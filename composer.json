@@ -1,0 +1,14 @@
+{
+    "name": "fishpig/magento2-remove-backup",
+    "description": "Remove Backup.",
+    "type": "project",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Magento\\Backup\\": "Mock/Magento/Backup"
+        }
+    },
+    "replace": {
+        "magento/module-backup": "*"
+    }
+}
